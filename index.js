@@ -1,4 +1,4 @@
-learnfunction theBeatlesPlay (musicians, instruments) {
+function theBeatlesPlay (musicians, instruments) {
   var arrayA = []
 	for ( var i = 0; i < musicians.length; i+= 1) {
 		arrayA.push(musicians[i] + " plays " +
